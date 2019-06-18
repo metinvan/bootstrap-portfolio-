@@ -1,0 +1,162 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 18px;
+	line-height: 34px;
+	font-family: 'Arial' 'Hlevetica Neue', Arial, Helvetica;
+	color: #777;
+	background-color: #f3f2f2;
+
+}
+
+
+.banner {
+	border-bottom: 1px solid #cccccc;
+	height: 90px;
+	width: 100%;
+	background-color: white;
+	margin: 0;
+}
+.haedcontainer{
+	max-width: 960px;
+	height: 90px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.logo{
+	width: 200px;
+	height: 90px;
+	background: #4aaaa5;
+	float: left;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 90px;
+	font-family: 'Georgia' Times, Times New Roman, serif;
+
+
+}
+.logo h1{
+	font-size: 26px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+
+}
+nav{
+	float: #999;
+	float: right;
+	padding-top: 40px;
+}
+nav a {
+	color:#999;
+	text-decoration: none;
+	margin-left: 16px;
+	display: inline-block;
+	border-left: 1px solid #efefef;
+	padding-left: 16px;
+	line-height: 18px;
+
+
+}
+nav a:first-child{
+	border-left: 0 none;
+
+}
+.main-container{
+	background-color: white;
+	width: 960px;
+	padding-top:16px;
+	margin:0 auto;
+	margin-top:40px;
+	border:1px solid #cccccc;
+}
+
+.main-section{
+	background: #fff;
+	padding: 30px;
+	margin: 0 0 40px 0;
+	width: 100%;
+	max-width: 650px;
+	float: left;
+	border: 1px slod #ddd;
+
+
+ .auth-image{
+	width: 160px;
+	height:auto;
+	margin-top: 10px;
+	float: left;
+	margin-right: 25px;
+
+}
+
+flowtobottom{
+	margin: 100px auto;
+	min-height: 100%;
+	overflow: auto;
+}
+
+foother {
+	color: #ccc;
+	background: #666;
+	border-top: 8px solid #4aaaa5;
+	clear:both;
+	padding: 30px 0;
+	color: #fff;
+	text-align: center;
+	font-size: 10px;
+	padding: 5px;
+	bottom: 0;
+
+}
+
+.work{
+	width: 250px;
+	float: left;
+	margin: 18px 0 25px;
+	position: relative;
+	overflow: auto;
+}
+.work:nth-child(even){
+	margin-right: 40px;
+	
+}
+.main-container h1{
+	padding-left: 24px;
+	color: #4aaaa5;
+
+}
+.auth-image {padding-left: 24px;
+
+}
+img { 
+	margin: 15px;
+	width: 200px;
+	height: auto;
+	float: left;
+	float: left;
+    margin: 10px 20px;
+}
+}
+h3 {padding: 0;
+margin: 0;
+margin-left: 24px;}
+input {
+	width: 80%;
+	height: 40px;
+	margin: 24px;
+
+}
+ .message input{
+	 height: 200px;
+ }
+ .btn{
+	 margin-left: 24px;
+	 margin-bottom: 16px;
+ }
+ .metin {
+	float: left;
+ }
