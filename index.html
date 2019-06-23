@@ -2,52 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About me</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Metin's Bootstrap Portfolio</title>
 </head>
+
 <body>
-    <header class="banner">
-        <div class="headcontainer">
-            <div class="logo">
-                <h1>Metin Aric</h1>
-
-            </div>
-
-        <div>
-    <nav>
-        <a href="index.html"> About</a>
-        <a href="portfolio.html">portfolio</a>
-        <a href="contact.html">contact</a>
-    </nav>
-    </div>
-    </header>
-    <div class="main">
-    <div class=" main-container">
-    
-        
-        <h1>About Me </h1>
-        <img class="metin" src="assets/images/15380591_10209793977339922_8088999478447001482_n.jpg" alt="Picture of me" width="200">
-        <p>Hello,my name is Metin.I am from Turkey.
-            I am married and i have 2 children.Their name is Yusuf and Hanne.
-          
-
-             </p>
-        <p>I own my bussines.</p>
-        <p>I like to play football and travel.</p>
-        </div>
-        <div class="flowtobottom">
-
-        </div>
-        <footer>
-        <div class="foother">
-            <p>copyright</p>
-
-    
+    <!--Header-->
+    <div class="container-fluid border-bottom">
+        <div class="container"> 
+            <div class="row"> 
+                <div class="col-sm bg-info">
+                    <h1 class="text-center text-white py-3">
+                        Metin Aric
+                    </h1>
+                </div>
+                <div class="col-sm">
+                
+                </div>
+                <div class="col-sm">
+                
+                </div>
+                <div class="col-sm">
+                    <nav class="navbar navbar-expand-lg pt-4 pb-3">
+                        <ul class="navbar-nav"> <!--Issue is here. Create new style.css to put display: none to get rid of display: flex-->
+                            <li class="nav-item active px-2 border-right">
+                                <a class="nav-link text-black-50" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link text-black-50" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item px-2 border-left">
+                                <a class="nav-link text-black-50" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--Row-->
+        </div> <!--Random container-->
+    </div> <!--Header-->
+    <!--Main-->
+    <div class="container mt-5 border">
+        <article class="row mt-2">
+            <div class="col">
+                <div>
+                    <h1 class="text-info my-4">About Me</h1>
+                </div>
+                <hr class="mb-4">
+                <div class="float-left pr-3">
+                    <img class="metin" src="assets/images/15380591_10209793977339922_8088999478447001482_n.jpg" alt="Picture of me" width="200">
+                    <p>Hello,my name is Metin.I am from Turkey.
+                        I am married and i have 2 children.Their name is Yusuf and Hanne.
+                        <p>I own my bussines.
+                    <p>I like to play football and travel.</p>
+                    <div>
+                        <p>margin border-right</p>
+                    </div>
+                    </div>
+                      
             
-
-        </footer>
+                    
+                    
+            </div>
+        </article>
+    </div> <!--Main-->
+    <!--Footer-->
+    <div class="footer fixed-bottom bg-dark py-4 border-top border-info"> 
+            <h6 class="text-center text-white">Copyright ©</h5>
+        </div> <!--Footer-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
 </html>
