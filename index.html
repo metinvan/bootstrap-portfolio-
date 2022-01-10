@@ -1,78 +1,1601 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Metin's Bootstrap Portfolio</title>
-</head>
+{
+  "questions": [
+    {
+      "id": 0,
+      "origin": ["cc"],
+      "level": 0,
+      "defaultShow": false,
+      "internal": "questionHeader",
+      "label": "Questions"
+    },
+    {
+      "id": 1,
+      "origin": ["cc"],
+      "level": 1,
+      "internal": "cadmhcQ",
+      "defaultShow": false,
+      "isDisabled": true,
 
-<body>
-    <!--Header-->
-    <div class="container-fluid border-bottom">
-        <div class="container"> 
-            <div class="row"> 
-                <div class="col-sm bg-info">
-                    <h1 class="text-center text-white py-3">
-                        Metin Aric
-                    </h1>
-                </div>
-                <div class="col-sm">
-                
-                </div>
-                <div class="col-sm">
-                
-                </div>
-                <div class="col-sm">
-                    <nav class="navbar navbar-expand-lg pt-4 pb-3">
-                        <ul class="navbar-nav"> <!--Issue is here. Create new style.css to put display: none to get rid of display: flex-->
-                            <li class="nav-item active px-2 border-right">
-                                <a class="nav-link text-black-50" href="index.html">About</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link text-black-50" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item px-2 border-left">
-                                <a class="nav-link text-black-50" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div> <!--Row-->
-        </div> <!--Random container-->
-    </div> <!--Header-->
-    <!--Main-->
-    <div class="container mt-5 border">
-        <article class="row mt-2">
-            <div class="col">
-                <div>
-                    <h1 class="text-info my-4">About Me</h1>
-                </div>
-                <hr class="mb-4">
-                <div class="float-left pr-3">
-                    <img class="metin" src="assets/images/15380591_10209793977339922_8088999478447001482_n.jpg" alt="Picture of me" width="200">
-                    <p>Hello,my name is Metin.I am from Turkey.
-                        I am married and i have 2 children.Their name is Yusuf and Hanne.
-                        <p>I own my bussines.
-                    <p>I like to play football and travel.</p>
-                    <div>
-                        <p>margin border-right</p>
-                    </div>
-                    </div>
-                      
-            
-                    
-                    
-            </div>
-        </article>
-    </div> <!--Main-->
-    <!--Footer-->
-    <div class="footer fixed-bottom bg-dark py-4 border-top border-info"> 
-            <h6 class="text-center text-white">Copyright ©</h5>
-        </div> <!--Footer-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-</html>
+
+      "choices": [
+        {
+          "text": "Access to Care",
+          "value": "Access to Care",
+          "internal": "access",
+          "isRequired": true
+        },
+        {
+          "text": "CD & RD Process",
+          "value": "CD & RD Process",
+          "internal": "cdrd"
+        },
+        {
+          "text": "Confidentiality / Privacy",
+          "value": "Confidentiality / Privacy",
+          "internal": "privacy"
+        },
+        {
+          "text": "Customer Service",
+          "value": "Customer Service",
+          "internal": "service"
+        },
+        {
+          "text": "Enroll / Disenroll",
+          "value": "Enroll / Disenroll",
+          "internal": "enroll"
+        },
+        {
+          "text": "Fraud and Abuse",
+          "value": "Fraud and Abuse",
+          "internal": "fraud"
+        },
+        {
+          "text": "Marketing",
+          "value": "Marketing",
+          "internal": "marketing"
+        },
+        {
+          "text": "Pharmacy Access",
+          "value": "Pharmacy Access",
+          "internal": "pharm"
+        },
+        {
+          "text": "Plan Benefit",
+          "value": "Plan Benefit",
+          "internal": "plan"
+        },
+        {
+          "text": "Other",
+          "value": "Other",
+          "internal": "other"
+        },
+        {
+          "text": "Quality of Care",
+          "value": "Quality of Care",
+          "internal": "quality",
+          "invalidMessage": "Please select"
+        }
+      ],
+      "headsUp": [
+        {
+          "defaultShow": false,
+          "internal": "access",
+          "parent": "access",
+          "roles": ["grv"],
+          "origin": ["cc"],
+          "note": [
+            {
+              "text": "NOTE: It is the Customer Care Associate's responsibility to use all available resources to ensure member can get their medication if possible."
+            },
+            {
+              "text": "NOTE: For Medicaid Members Who are Unable to Pay Copays - The Retail Pharmacy cannot refuse services to a member that is unable to pay the copay. The Pharmacy may attempt to collect or bill for a copay  that is not collected at the time of service. Place one outbound call to the Retail Pharmacy to assist the member with receiving their prescription. If the Retail Pharmacy refuses to dispense the prescription, refer to When to Transfer Calls to the Senior Team"
+            }
+          ]
+        },
+        {
+          "defaultShow": false,
+          "internal": "cdrd",
+          "parent": "cdrd",
+          "roles": ["grv"],
+          "origin": ["cc"],
+          "note": [
+            {
+              "text": "NOTE: Commercial and Medicaid: CD is Prior Authorization, RD is an Appeal"
+            }
+          ]
+        },
+        {
+          "defaultShow": false,
+          "internal": "privacy",
+          "parent": "privacy",
+          "roles": ["grv"],
+          "origin": ["cc"],
+          "note": [
+            {
+              "text": "NOTE: Refer to IngenioRx HIPAA/Privacy Disclosure Reporting for procedures regarding potential privacy incidents"
+            }
+          ]
+        },
+        {
+          "defaultShow": false,
+          "internal": "service",
+          "parent": "service",
+          "roles": ["grv"],
+          "origin": ["cc"],
+          "note": [
+            {
+              "text": "NOTE: Applies to pharmacists, pharmacy staff, Plans, Plan subcontractors, and Customer Care Associates"
+            }
+          ]
+        },
+        {
+          "defaultShow": false,
+          "internal": "fraud",
+          "parent": "fraud",
+          "roles": ["grv"],
+          "origin": ["cc"],
+          "note": [
+            {
+              "text": "NOTE: Refer to IngenioRx HIPAA/Privacy Disclosure Reporting for procedures regarding potential privacy incidents"
+            }
+          ]
+        },
+        {
+          "defaultShow": false,
+          "internal": "quality",
+          "parent": "quality",
+          "roles": ["grv"],
+          "origin": ["cc"],
+          "note": [
+            {
+              "text": "NOTE: While this section mentions dissatisfaction for California, the expression of dissatisfaction is not required for an Exempt or Standard Grievance."
+            },
+            {
+              "text": "NOTE: Not to be used for clinical appeals, member reconsiderations for adverse decisions on medical necessity, or non-clinical decisions, member's financial responsibility for prescriptions, or claims processing. Refer to IngenioRx Prior Authorization (PA) and IngenioRx Prescription Claim Appeal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCatAccessQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "dropdown",
+      "isRequired": true,
+      "choices": [
+        {
+          "text": "Home Delivery delay",
+          "color": "green",
+          "grvtype": "standard"
+        },
+        {
+          "text": "Member receives order with correct quantity in a different package size or manufacturer",
+          "color": "green",
+          "grvtype": "standard"
+        },
+        {
+          "text": "Prescription having no additional refills",
+          "color": "green",
+          "grvtype": "standard"
+        },
+        {
+          "text": "Member provided high copay approval; however, account was not updated, and medication did not ship",
+          "color": "green"
+        },
+        {
+          "text": "Member is out of medication or will soon be without medication because",
+          "color": "green"
+        },
+        {
+          "text": "Missing eligibility due to plan error",
+          "color": "green",
+          "grvtype": "standard"
+        },
+        {
+          "text": "Account not set up correctly",
+          "color": "green",
+          "grvtype": "standard"
+        },
+        {
+          "text": "Member out of medication due to prescriber, Plan, or pharmacy error",
+          "color": "green",
+          "grvtype": "standard"
+        }
+      ],
+      "invalidMessage": "Please select"
+    },
+    {
+      "id": 6,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subWoMemMedQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "They are waiting for a response from another health insurance plan",
+          "value": "They are waiting for a response from another health insurance plan",
+          "color": "green",
+          "isRequired": true
+        },
+        {
+          "label": "They are waiting for a response from a provider or prescriber",
+          "value": "They are waiting for a response from a provider or prescriber",
+          "color": "green"
+        },
+        {
+          "label": "They refuse to pay for the medication due to high cost",
+          "value": "They refuse to pay for the medication due to high cost",
+          "color": "green"
+        },
+        {
+          "label": "They forgot to call and place an order",
+          "value": "They forgot to call and place an order",
+          "color": "green"
+        },
+        {
+          "label": "They failed to follow the correct steps to complete an order",
+          "value": "They failed to follow the correct steps to complete an order",
+          "color": "green"
+        },
+        {
+          "label": "They forgot to change their address when placing an online order",
+          "value": "They forgot to change their address when placing an online order",
+          "color": "green",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCatcdrdQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "tag": "green",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Coverage Determination Process",
+          "value": "Coverage Determination Process",
+          "color": "green",
+          "isRequired": true
+        },
+        {
+          "label": "Redetermination (appeal) Process",
+          "value": "Redetermination (appeal) Process",
+          "color": "green"
+        },
+        {
+          "label": "Prior Authorization for Commercial",
+          "value": "Prior Authorization for Commercial",
+          "color": "green",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCDQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Process Complaint",
+          "value": "Process Complaint",
+          "tooltip": "Not to be used if the complaint is being handled through the CD process",
+          "color": "green",
+          "isRequired": true
+        },
+        {
+          "label": "Decision - Delay",
+          "value": "Decision - Delay",
+          "color": "green"
+        },
+        {
+          "label": "Staff Behavior During CD Process",
+          "value": "Staff Behavior During CD Process",
+          "color": "green",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subPAQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Process Complaint",
+          "value": "Process Complaint",
+          "color": "green",
+          "isRequired": true
+        },
+        {
+          "label": "Decision - Delay",
+          "value": "Decision - Delay",
+          "color": "green"
+        },
+        {
+          "label": "Staff Behavior During CD Process",
+          "value": "Staff Behavior During CD Process",
+          "color": "green"
+        },
+        {
+          "label": "Pharmacy Prior Auth Letter - Not Received",
+          "value": "Pharmacy Prior Auth Letter - Not Received",
+          "color": "green",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCatPrivacyQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Potential violations of medical information privacy standards by the plan or pharmacy",
+          "value": "Potential violations of medical information privacy standards by the plan or pharmacy",
+          "color": "black",
+          "grvtype": "standard",
+          "isRequired": true
+        },
+        {
+          "label": "Sharing of PHI to unauthorized individuals, entities, organizations, or companies",
+          "value": "Sharing of PHI to unauthorized individuals, entities, organizations, or companies",
+          "color": "black",
+          "grvtype": "standard",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCatServiceQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "dropdown",
+      "isRequired": true,
+      "choices": [
+        {
+          "text": "Call Handling/rep behavior",
+          "color": "black"
+        },
+        {
+          "text": "Long Hold time",
+          "color": "black"
+        },
+        {
+          "text": "Procedural Adherence",
+          "color": "black"
+        },
+        {
+          "text": "Member Refuse transfer to client",
+          "color": "black"
+        },
+        {
+          "text": "Retail Pharmacy Complaint",
+          "color": "black"
+        },
+        {
+          "text": "Mail Pharmacy Complaint",
+          "color": "green"
+        },
+        {
+          "text": "IVR",
+          "color": "black"
+        },
+        {
+          "text": "Rude or disrespectful behavior",
+          "color": "black"
+        },
+        {
+          "text": "Incorrect information",
+          "color": "green"
+        },
+        {
+          "text": "Service failure",
+          "tooltip": "i.e., failure to follow-up, not meeting commitments, not delivering on promises, etc.",
+          "color": "green"
+        }
+      ],
+      "invalidMessage": "Please select"
+    },
+    {
+      "id": 12,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subRPharmComplaintQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Faxes to and from doctor not received",
+          "value": "Faxes to and from doctor not received",
+          "color": "black",
+          "isRequired": true
+        },
+        {
+          "label": "Long wait time",
+          "value": "Long wait time",
+          "color": "black"
+        },
+        {
+          "label": "Pharmacy refused to accept insurance or fill Rx",
+          "value": "Pharmacy refused to accept insurance or fill Rx",
+          "color": "green"
+        },
+        {
+          "label": "Manufacturer backorder",
+          "value": "Manufacturer backorder",
+          "color": "green"
+        },
+        {
+          "label": "Medication not in stock",
+          "value": "Medication not in stock",
+          "color": "green"
+        },
+
+        {
+          "label": "Rudeness, etc.",
+          "value": "Rudeness, etc.",
+          "color": "black",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subMPharmComplaintQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Category",
+      "type": "dropdown",
+      "isRequired": true,
+      "choices": [
+        {
+          "text": "Refill",
+          "color": "green"
+        },
+        {
+          "text": "Order Status - No Delays",
+          "color": "green"
+        },
+        {
+          "text": "Order cancelled",
+          "color": "green"
+        },
+        {
+          "text": "Received less than 90-day supply",
+          "color": "green"
+        },
+        {
+          "text": "Meds sent in multiple orders",
+          "color": "green"
+        },
+        {
+          "text": "Faxes to and from doctor not received",
+          "color": "green"
+        },
+        {
+          "text": "Order lost in transit and Bridge Supply is offered and accepted by the caller",
+          "color": "green"
+        },
+        {
+          "text": "Pharmacy refused to accept insurance or fill Rx",
+          "color": "green"
+        },
+        {
+          "text": "Manufacturer backorder and alternative medication is available",
+          "color": "green"
+        },
+        {
+          "text": "Medication not in stock and alternative medication is available",
+          "color": "green"
+        },
+        {
+          "text": "Order lost in transit and Bridge Supply is not offered and accepted by the caller",
+          "color": "green",
+          "grvtype": "standard"
+        },
+        {
+          "text": "Manufacturer backorder and alternative medication is not available",
+          "color": "green",
+          "grvtype": "standard"
+        },
+        {
+          "text": "Medication not in stock and alternative medication is not available",
+          "color": "green",
+          "grvtype": "standard"
+        }
+      ],
+      "invalidMessage": "Please select"
+    },
+    {
+      "id": 14,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subIVRQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Incorrect Transfer",
+          "value": "Incorrect Transfer",
+          "color": "black",
+          "isRequired": true
+        },
+        {
+          "label": "Options Inadequate",
+          "value": "Options Inadequate",
+          "color": "black"
+        },
+        {
+          "label": "Other Error",
+          "value": "Other Error",
+          "color": "black",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCatEnrollQ",
+      "tag": "green",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Enrollment process",
+          "value": "Enrollment process",
+          "color": "black",
+          "note": [
+            {
+              "text": "NOTE: File Exempt Grievance for transferring caller to Medical Member Services."
+            }
+          ],
+          "isRequired": true
+        },
+        {
+          "label": "Discrimination in the enrollment process",
+          "value": "Discrimination in the enrollment process",
+          "color": "black"
+        },
+        {
+          "label": "Enrollment information not received in a timely manner",
+          "value": "Enrollment information not received in a timely manner",
+          "color": "green"
+        },
+        {
+          "label": "Identification cards not issued in a timely manner",
+          "value": "Identification cards not issued in a timely manner",
+          "color": "green"
+        },
+        {
+          "label": "Disenrollment requests not processed in timely manner",
+          "value": "Disenrollment requests not processed in timely manner",
+          "color": "black"
+        },
+        {
+          "label": "Eligibility issues",
+          "value": "Eligibility issues",
+          "color": "green",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCatFraudQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Fraud: Intentional deception or misrepresentation",
+          "value": "Fraud: Intentional deception or misrepresentation",
+          "color": "black",
+          "grvtype": "standard",
+
+          "isRequired": true
+        },
+        {
+          "label": "Abuse: Behavior that the individual should have known to be false, deceptive, or misrepresentative",
+          "value": "Abuse: Behavior that the individual should have known to be false, deceptive, or misrepresentative",
+          "color": "black",
+          "grvtype": "standard"
+        },
+
+        {
+          "label": "A statement, oral or written, alleging that a provider, pharmacy, pharmacist, PBM, Plan, Plan Agent or broker, or member engaged in deception or misrepresentation that could result in unauthorized benefits for the member or another person",
+          "value": "A statement, oral or written, alleging that a provider, pharmacy, pharmacist, PBM, Plan, Plan Agent or broker, or member engaged in deception or misrepresentation that could result in unauthorized benefits for the member or another person",
+          "color": "black",
+          "grvtype": "standard",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCatMarketingQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Written Materials",
+          "value": "Written Materials (Welcome Kit, Marketing, Benefit Notices, Notices of Non-Renewals, Plan Materials/EOB)",
+          "tooltip": "Welcome Kit, Marketing, Benefit Notices, Notices of Non-Renewals, Plan Materials/EOB",
+          "color": "black",
+          "isRequired": true
+        },
+        {
+          "label": "ID Cards",
+          "value": "ID Cards",
+          "color": "black"
+        },
+
+        {
+          "label": "Inaccurately advertised",
+          "value": "Inaccurately advertised",
+          "color": "black",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subWrittenMatQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Materials Discriminatory",
+          "value": "Materials Discriminatory",
+          "color": "black",
+          "isRequired": true
+        },
+        {
+          "label": "Materials Not Received",
+          "value": "Materials Not Received",
+          "color": "black"
+        },
+
+        {
+          "label": "Member Unawareness of Benefit Changes Within Plan For New Year",
+          "value": "Member Unawareness of Benefit Changes Within Plan For New Year",
+          "color": "black"
+        },
+        {
+          "label": "Confusing/Unclear Materials",
+          "value": "Confusing/Unclear Materials",
+          "color": "black",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subIDcardsQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Member Dissatisfied with Information on Card",
+          "value": "Member Dissatisfied with Information on Card",
+          "color": "black",
+          "isRequired": true
+        },
+        {
+          "label": "Font too small",
+          "value": "Font too small",
+          "color": "black"
+        },
+
+        {
+          "label": "Not received",
+          "value": "Not received",
+          "color": "black"
+        },
+        {
+          "label": "Poor Condition",
+          "value": "Poor Condition",
+          "color": "black",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subInaccAdQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Rx Pricing",
+          "value": "Rx Pricing",
+          "color": "black",
+          "isRequired": true
+        },
+        {
+          "label": "Network",
+          "value": "Network",
+          "color": "black"
+        },
+
+        {
+          "label": "Product or Service",
+          "value": "Product or Service",
+          "color": "black",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCatPharmQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Retail Pharmacy Network Access/Adequacy",
+          "value": "Retail Pharmacy Network Access/Adequacy",
+          "color": "green",
+          "isRequired": true,
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subRPharmQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Location Is Unsafe",
+          "value": "Location Is Unsafe",
+          "color": "green",
+          "isRequired": true
+        },
+        {
+          "label": "Location (Time to Travel Too Far)/Out of Service Area",
+          "value": "Location (Time to Travel Too Far)/Out of Service Area",
+          "color": "green"
+        },
+        {
+          "label": "Location Not Handicap Accessible",
+          "value": "Location Not Handicap Accessible",
+          "color": "green"
+        },
+        {
+          "label": "Other Access Issue",
+          "value": "Other Access Issue",
+          "color": "green"
+        },
+
+        {
+          "label": "Phone Inaccessible",
+          "value": "Phone Inaccessible",
+          "color": "green",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCatPlanQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Member Financial Responsibility",
+          "value": "Member Financial Responsibility",
+          "color": "blue",
+          "isRequired": true
+        },
+        {
+          "label": "General Plan Benefits",
+          "value": "General Plan Benefits",
+          "color": "blue"
+        },
+        {
+          "label": "Coordination of Benefits",
+          "value": "Coordination of Benefits",
+          "color": "black"
+        },
+        {
+          "label": "Formulary",
+          "value": "Formulary (not related to coverage of a specific drug)",
+          "tooltip": "Not related to coverage of a specific drug",
+          "color": "black"
+        },
+
+        {
+          "label": "Transition Fill",
+          "value": "Transition Fill",
+          "color": "black",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subMemFinanceQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Copay, Co-insurance, Deductible, or Doughnut",
+          "value": "Copay, Co-insurance, Deductible, or Doughnut",
+          "color": "blue",
+          "isRequired": true,
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCopayQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Confusion",
+          "value": "Confusion",
+          "color": "blue",
+          "isRequired": true
+        },
+        {
+          "label": "Discrepancy",
+          "value": "Discrepancy",
+          "color": "blue"
+        },
+        {
+          "label": "Increase",
+          "value": "Increase",
+          "color": "blue"
+        },
+        {
+          "label": "Pharmacy discrepancy",
+          "value": "Pharmacy discrepancy",
+          "color": "blue",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subGenPlanBenefitQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Formulary",
+          "value": "Formulary",
+          "color": "blue",
+          "isRequired": true
+        },
+        {
+          "label": "Pharmacy Benefit Package",
+          "value": "Pharmacy Benefit Package",
+          "color": "blue"
+        },
+        {
+          "label": "Refill Threshold",
+          "value": "Refill Threshold",
+          "color": "blue"
+        },
+        {
+          "label": "Coverage gap",
+          "value": "Coverage gap",
+          "color": "blue"
+        },
+        {
+          "label": "DAW penalty",
+          "value": "DAW penalty",
+          "color": "blue",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subFormularyQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Insufficient/ Limited Medication Choice",
+          "value": "Insufficient/ Limited Medication Choice",
+          "color": "blue",
+          "isRequired": true
+        },
+        {
+          "label": "Medication Coverage - Unclear/Confusing",
+          "value": "Medication Coverage - Unclear/Confusing",
+          "color": "blue"
+        },
+        {
+          "label": "Medication Transition Coverage - Inadequate",
+          "value": "Medication Transition Coverage - Inadequate",
+          "color": "blue",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subPharmBenefitQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Benefit Offerings Insufficient",
+          "value": "Benefit Offerings Insufficient",
+          "color": "blue",
+          "isRequired": true
+        },
+        {
+          "label": "Removal of Beneficiary Plan",
+          "value": "Removal of Beneficiary Plan",
+          "color": "blue",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCatOtherQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Allegation of Theft or Illegal Activity",
+          "value": "Allegation of Theft or Illegal Activity",
+          "color": "black",
+          "grvtype": "standard",
+          "isRequired": true
+        },
+        {
+          "label": "Claims",
+          "value": "Claims",
+          "color": "green"
+        },
+        {
+          "label": "Privacy/HIPAA Violation",
+          "value": "Privacy/HIPAA Violation",
+          "grvtype": "standard",
+          "color": "black"
+        },
+        {
+          "label": "Website/APP/Technology Complaint",
+          "value": "Website/APP/Technology Complaint",
+          "color": "black",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subClaimsQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Pharmacy Retail - Prescription is Damaged or Defective",
+          "value": "Pharmacy Retail - Prescription is Damaged or Defective",
+          "color": "green",
+          "isRequired": true,
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subWebComplaintQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Website Outage",
+          "value": "Website Outage",
+          "color": "black",
+          "isRequired": true
+        },
+
+        {
+          "label": "Unable to login",
+          "value": "Unable to login",
+          "color": "green"
+        },
+        {
+          "label": "Missing Information",
+          "value": "Missing Information",
+          "color": "black"
+        },
+        {
+          "label": "Technical issue",
+          "value": "Technical issue",
+          "color": "black",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "origin": ["cc"],
+      "level": 2,
+      "category": "sub",
+      "internal": "subCatQualityQ",
+      "defaultShow": false,
+      "isDisabled": true,
+      "questionText": "Sub Category",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "A non-clinical associate provides member with clinical advice or directive",
+          "value": "A non-clinical associate provides member with clinical advice or directive",
+          "color": "green",
+          "grvtype": "standard",
+          "isRequired": true
+        },
+        {
+          "label": "Home Delivery issue such as cold pack broken, medication damage.",
+          "value": "Home Delivery issue such as cold pack broken, medication damaged",
+          "color": "green",
+          "grvtype": "standard"
+        },
+        {
+          "label": "Retail pharmacy dispenses wrong strength or wrong drug",
+          "value": "Retail pharmacy dispenses wrong strength or wrong drug",
+          "color": "green",
+          "grvtype": "standard"
+        },
+        {
+          "label": "Prescription bottle contains two different types of drugs",
+          "value": "Prescription bottle contains two different types of drugs",
+          "color": "green",
+          "grvtype": "standard"
+        },
+        {
+          "label": "Member shorted medication",
+          "value": "Member shorted medication (not due to transition fill)",
+          "tooltip": "Not due to transition fill",
+          "color": "green",
+          "grvtype": "standard"
+        },
+        {
+          "label": "Incorrect drug shipped",
+          "value": "Incorrect drug shipped",
+          "color": "green",
+          "grvtype": "standard"
+        },
+        {
+          "label": "Expressed Ship Consent process failure",
+          "value": "Expressed Ship Consent process failure",
+          "color": "green",
+          "grvtype": "standard",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+
+    {
+      "id": 33,
+      "origin": ["cc"],
+      "level": 1,
+      "internal": "preventMemMedQ",
+      "isDisabled": true,
+      "defaultShow": false,
+      "questionText": "Did this prevent the Plan Member from receiving the medication today?",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "isRequired": true
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "origin": ["cc"],
+      "level": 1,
+      "internal": "runOutMedQ",
+      "isDisabled": true,
+      "defaultShow": false,
+      "questionText": "Does the member have the potential of running out of medication in five days or less or is the member out of medication currently?",
+      "type": "radio",
+      "style": "single",
+      "isRequired": true,
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "isRequired": true
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "origin": ["cc"],
+      "level": 1,
+      "internal": "srTeamQ",
+      "isDisabled": true,
+      "defaultShow": false,
+      "questionText": "Did you have to transfer or escalate the caller to the Senior Team?",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes - No GRV",
+          "isRequired": true
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "invalidMessage": "Please answer"
+        }
+      ],
+      "headsUp": [
+        {
+          "defaultShow": false,
+          "internal": "srTeamHUP",
+          "roles": ["grv"],
+          "origin": ["cc"],
+          "reminder": [
+            {
+              "text": "Senior Team owns resolving the call and submitting a grievance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "origin": ["cc"],
+      "level": 1,
+      "isDisabled": true,
+      "defaultShow": false,
+      "internal": "bridgeSupplyQ",
+      "questionText": "Was a Bridge Supply offered and accepted?",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes - good",
+          "grvtype": "standard",
+          "isRequired": true
+        },
+        {
+          "label": "No",
+          "value": "No - unresolved",
+          "grvtype": "standard",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+
+    {
+      "id": 38,
+      "origin": ["cc"],
+      "level": 1,
+      "internal": "rqstResearchQ",
+      "isDisabled": true,
+      "defaultShow": false,
+      "questionText": "Did you have to submit a request for additional research, including HIPAA/Privacy violation and reporting Fraud, Wast and Abuse?",
+      "type": "radio",
+      "style": "single",
+      "isRequired": true,
+      "choices": [
+        {
+          "label": "Yes - This call is unresolved",
+          "value": "Yes - This call is unresolved",
+          "grvtype": "standard",
+          "isRequired": true
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "origin": ["cc"],
+      "level": 1,
+      "internal": "addressAllQ",
+      "isDisabled": true,
+      "defaultShow": false,
+      "questionText": "Did you address all of the  reasons for the call?",
+      "type": "radio",
+      "style": "single",
+      "isRequired": true,
+      "choices": [
+        {
+          "label": "Yes - This call is resolved",
+          "value": "Yes - This call is good",
+          "grvtype": "exempt",
+          "isRequired": true
+        },
+        {
+          "label": "No - This call is unresolved",
+          "value": "No - This call is unresolved",
+          "grvtype": "standard",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "origin": ["cc"],
+      "level": 1,
+      "internal": "medNameOrderNumQ",
+      "tag": "additional",
+      "isDisabled": true,
+      "defaultShow": false,
+      "questionText": "What is the medication name and/or order number?",
+      "type": "text",
+      "style": "button",
+      "choices": [
+        {
+          "label": "Medication Name/Order Number",
+          "placeholder": "Medication Name/Order Number",
+          "icon": "medication",
+          "buttonLabel": "N/A",
+          "tag": "qsetNAButton",
+          "isRequired": true,
+          "invalidMessage": "Please provide medication name"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "origin": ["cc"],
+      "level": 1,
+      "internal": "orderDateQ",
+      "tag": "additional",
+      "isDisabled": true,
+      "defaultShow": false,
+      "questionText": "What is the order placement date",
+      "type": "text",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Order Placement Date",
+          "placeholder": "Order Placement Date",
+          "isDate": true,
+          "icon": "calendar_today",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "origin": ["cc"],
+      "level": 1,
+      "internal": "pharmTypeQ",
+      "tag": "additional",
+      "isDisabled": true,
+      "defaultShow": false,
+      "questionText": "Pharmacy Type",
+      "type": "radio",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Retail Pharmacy",
+          "value": "Retail Pharmacy",
+          "isRequired": false
+        },
+        {
+          "label": "Home Delivery",
+          "value": "Home Delivery"
+        },
+        {
+          "label": "Specialty Pharmacy",
+          "value": "No",
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "origin": ["cc"],
+      "level": 1,
+      "tag": "additional",
+      "internal": "retailPharmQ",
+      "isDisabled": true,
+      "defaultShow": false,
+      "questionText": "If Retail, provide name and address",
+      "type": "textarea",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Name & Address",
+          "placeholder": "Name & Address",
+          "isRequired": false,
+          "isFloating": true
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "origin": ["cc"],
+      "level": 1,
+      "tag": "additional",
+      "internal": "transferredQ",
+      "isDisabled": true,
+      "defaultShow": false,
+      "questionText": "If call was transferred, where transferred",
+      "type": "textarea",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Where transferred...",
+          "placeholder": "Where transferred...",
+          "isRequired": false,
+          "isFloating": true,
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "origin": ["cc"],
+      "level": 1,
+      "internal": "reasonQ",
+      "isDisabled": true,
+      "defaultShow": false,
+      "questionText": "What is the REASON(s) of the call?",
+      "type": "textarea",
+      "style": "single",
+      "choices": [
+        {
+          "label": "Detail reasons",
+          "placeholder": "Detail reasons",
+          "isRequired": true,
+          "isFloating": true,
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "origin": ["cc"],
+      "level": 1,
+      "internal": "drugNameQ",
+      "isDisabled": true,
+      "defaultShow": false,
+      "questionText": "Enter the name of the medication",
+      "type": "text",
+      "style": "button",
+      "choices": [
+        {
+          "label": "Medication Name",
+          "placeholder": "Medication Name",
+          "icon": "medication",
+          "buttonLabel": "N/A",
+          "tag": "qsetNAButton",
+          "isRequired": true,
+          "invalidMessage": "Please answer"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "origin": ["cc"],
+      "level": 0,
+      "isDisabled": true,
+      "defaultShow": false,
+      "tag": "additional",
+      "internal": "additionalHeader",
+      "label": "Additional Questions",
+      "sublabel": "If applicable"
+    },
+    {
+      "id": 92,
+      "origin": ["cc"],
+      "level": 9,
+      "defaultShow": false,
+      "isDisabled": true,
+      "type": "button",
+      "value": "noMember",
+      "internal": "noMemberSubmit",
+      "label": "Generate Note"
+    },
+    {
+      "id": 93,
+      "origin": ["cc"],
+      "level": 9,
+      "defaultShow": false,
+      "isDisabled": true,
+      "type": "button",
+      "value": "noGrvBtn",
+      "internal": "noGrvSubmit",
+      "label": "Generate Note"
+    }
+  ],
+  "confirmation": [
+    {
+      "id": 1,
+      "level": 1,
+      "internal": "wiAddressConfirm",
+      "message": "Please confirm that full address was verified. Zip code is optional for IngenioRx.",
+      "checklist": [
+        {
+          "defaultShow": true,
+          "isDisabled": false,
+          "item": "Validated Full Home Address",
+          "internal": "wiAddressValidate",
+          "invalidMessage": "Please check"
+        }
+      ]
+    }
+  ]
+}
